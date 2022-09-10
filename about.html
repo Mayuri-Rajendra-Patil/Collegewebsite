@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT College website Design </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ 
+
+<body>
+    <!-------header--------->
+      <section class="sub-header">
+          <nav>
+              <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+              <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+               
+
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="">ADMISSION 2022-23</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+              </div>
+              
+              <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+          </nav>
+          <h1>About Us</h1>
+
+
+      </section>
+      <!---------about us content------------->
+      <section class="about us">
+        <div class="row">
+            
+            <div class="about-col">
+                <h1>Marathwada Institute of Technology (MIT) Aurangabad</h1>
+                <p>Marathwada Institute of Technology has been established in 1984 to cater the technical education in the rural part of Maharashtra. The institution spreads over 13 acres of land with separate hostel facilities for girls and boys. This Institute is approved by AICTE, New Delhi and is affiliated to Dr. Babasaheb Ambedkar Technological University, Lonere, Raigarh, Maharashatra, the state technical university popularly known as BATU. The institution offers B. Tech. programmes in five disciplines and an Architecture program. Post-Graduation programs are also offered in Engineering & Technology, Computer Applications and Architecture. The Institute has a University recognized Ph.D. Research Center in Mechanical Engineering and Civil Engineering. More than 2500 full time & part time students are on campus for availing graduate and post graduate education and doing Ph.D. research.
+
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="images/background3.jpg" alt="">
+
+            </div>
+
+        </div>
+
+      </section>
+
+      
+      
+
+      <!----------footer---------->
+      <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi necessitatibus debitis tempora iusto perferendis, sunt <br>  molestiae voluptate qui harum dolorem a illum sed earum illo ipsum unde nostrum et ipsa.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o"></i> by Mayuri Patil</p>
+
+
+      </section>
+
+
+
+
+    
+    
+  <script>
+      var navlinks= document.getElementById("navlinks");
+      function showMenu(){
+          navlinks.style.right="0";
+
+      }
+      function hideMenu(){
+          navlinks.style.right="-200px";
+      }
+  </script>
+
+</body>
+</html>
+    
+    
